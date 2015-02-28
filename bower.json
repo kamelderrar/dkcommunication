@@ -1,0 +1,25 @@
+{
+  "name": "site_bootstrap",
+  "version": "0.0.1",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/assets",
+    "test",
+    "tests",
+    "src/public/assets"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "normalize-css": "~3.0.1",
+    "modernizr": "~2.8.1"
+  },
+  "keywords": [
+    "0000"
+  ]
+}

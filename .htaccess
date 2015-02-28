@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+    
+    RewriteRule ^index.html$ index.php?page=home
+    RewriteRule ^home.html$ index.php?page=home
+    RewriteRule ^search.html$ index.php?page=search
+    RewriteRule ^actu.html$ index.php?page=actualite
+    RewriteRule ^conseil.html$ index.php?page=conseil_en_communication
+    RewriteRule ^marketing.html$ index.php?page=marketing
+    RewriteRule ^print.html$ index.php?page=print
+    RewriteRule ^printrea.html$ index.php?page=realisations_print
+    RewriteRule ^web.html$ index.php?page=web
+    RewriteRule ^webrea.html$ index.php?page=realisations_web
+    RewriteRule ^blog.html$ index.php?page=blog/blog
+    RewriteRule ^connect.html$ index.php?page=blog/connect
+    RewriteRule ^delete.html$ index.php?page=blog/delete
+    RewriteRule ^control.html$ index.php?page=blog/control
+    RewriteRule ^add.html$ index.php?page=blog/add
+    RewriteRule ^edit.html$ index.php?page=blog/edit
+    RewriteRule ^dk.html$ index.php?page=blog/dk
+    RewriteRule ^articles.html$ index.php?page=blog/articles
+
+    ErrorDocument 404 /index.php?page=404
+    
+</IfModule>
