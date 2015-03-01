@@ -5,8 +5,9 @@ $sql = "SELECT * from articles WHERE id = '".$_GET['id']."'";
 $req = mysql_query($sql);
 while($donnees=mysql_fetch_assoc($req)){ 
 ?>
+<div id="articles">
 <div class="row">
-<div id="blog">
+
 	<div class="col-lg-9">
 		<div class="article_blog">
 		<h1><?php echo "{$donnees["titre"]}"; ?></h1>
@@ -21,7 +22,7 @@ while($donnees=mysql_fetch_assoc($req)){
 		};
 		?>
 	</div>
-	<div class="col-lg-3 col-offset-12">
+	<div class="col-lg-3 col-lg-offset-12">
 	<div class="bloccategories">
 	<div class="categories">
 		<h4>Catégories</h4>

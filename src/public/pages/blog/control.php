@@ -6,18 +6,21 @@ $req = mysql_query($sql);
 while($donnees=mysql_fetch_assoc($req)){ 
 ?>
 
+
 <div class="row">
-	<div class="col-lg-6">
+	<div class="control">
+	<div class="col-lg-5">
 		<?php echo "{$donnees["titre"]}";?>
 	</div>
 	<div class="col-lg-2">
-		<a  class="btn btn-success" href="index.php?page=blog/articles&id=<?php echo $donnees['id'];?>">Lire l'article</a>
+		<a href="index.php?page=blog/articles&id=<?php echo $donnees['id'];?>"><button class="btn btn-success">Lire l'article</button></a>
 	</div>
 	<div class="col-lg-2">
-		<a class="btn btn-primary" href="./index.php?page=edit<?php  ?>">Modifier la news</a>
+		<a href="./index.php?page=blog/edit&id=<?php echo $donnees['id'];?>"><button class="btn btn-primary">Modifier</button></a>
 	</div>
 	<div class="col-lg-2">
-		<a href="./index.php?page=blog/control&id=<?php echo $donnees["id"];?>&supp=ok"class="btn btn-danger">Supprimer la news</a>
+		<a href="./index.php?page=blog/control&id=<?php echo $donnees["id"];?>&supp=ok"><button class="btn btn-danger">Supprimer</button></a>
+	</div>
 	</div>
 </div>
 

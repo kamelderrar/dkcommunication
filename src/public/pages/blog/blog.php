@@ -17,7 +17,7 @@ while($donnees=mysql_fetch_assoc($req)){
 				<h1><?php echo "{$donnees["titre"]}"; ?></h1>
 				<h3><?php echo date("j/n/Y",strtotime($donnees["date"])); ?> | <?php echo "{$donnees["categorie"]}"; ?></h3> 
 				<h4><?php echo "{$donnees["description"]}"; ?></h4>
-				<a  class="btn btn-success" href="index.php?page=blog/articles&id=<?php echo $donnees['id'];?>">Lire la suite</a>
+				<a href="index.php?page=blog/articles&id=<?php echo $donnees['id'];?>"><button class="btn btn-success">Lire la suite</button></a>
 			</div>
 		</div>
 	</div>
