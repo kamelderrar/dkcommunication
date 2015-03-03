@@ -48,8 +48,6 @@ if (isset($_POST['submit'])) {
       array_push($errors,"Champs description vide!!");
     }
 
-    var_dump($errors);
-
 
 /*if(empty($errors)){
 

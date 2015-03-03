@@ -13,7 +13,7 @@ while($donnees=mysql_fetch_assoc($req)){
 				<?php echo "<img src='img/illustrations/{$donnees["illustration"]}'/>"?>
 				</div>
 			</div>
-			<div class="col-lg-6 col-offset-6">	
+			<div class="col-lg-6 	">	
 				<h1><?php echo "{$donnees["titre"]}"; ?></h1>
 				<h3><?php echo date("j/n/Y",strtotime($donnees["date"])); ?> | <?php echo "{$donnees["categorie"]}"; ?></h3> 
 				<h4><?php echo "{$donnees["description"]}"; ?></h4>

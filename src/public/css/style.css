@@ -67,21 +67,26 @@ textarea{
 }
 
 /******   BLOG       ************************************************/
-#articles .bloccategories{
+.bloccategories{
 	border: 1px solid grey;
 	height: ;
 	color: grey;
 	padding: 10px;
 	margin-top: 50px;
 	border-radius: 10px;
+
 }
+#blog .col-lg-offset-9{
+	margin-left: 0% !important;
+}
+
 .bloccategories h4{
 		color: grey;
 }
 .control .btn{
 	white-space: normal !important;
 }
-.illustration img{
+#blog .illustration img{
 	width:90%;
 	height: 90%;
 }
@@ -131,38 +136,3 @@ padding-top: 25px;
 button.btn btn-success{
 	margin: 5px;
 }
-
-
-/* 
-map #map{
-	width:1026px;
-	height:768px;
-}
-.map{
-	width:1026px;
-	height:768px;
-	background: url(../img/menui.png)left top no-repeat;
-	left:-100px;
-	position: relative;
-}
-.map .overlay{
-	background: url(../img/menui.png)1026px top no-repeat;
-	position: relative;
-	left:-100px;
-	top:0;
-	z-index: 2;
-}
-.map img{
-	position: absolute;
-	left:0;
-	top:0;
-	z-index: 2;
-
-} */
-
-
-/*.titre h1{
-	font-family: arial;
-	font-size: 3em;
-	font-weight: bold;
-}*/

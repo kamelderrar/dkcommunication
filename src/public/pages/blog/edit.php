@@ -1,15 +1,13 @@
 <?php 
-$titre = $_POST['titre'];
-$illustration =$_POST['illustration'];
-$contenu = $_POST['contenu'];
-$categorie = $_POST['categorie'];
-$sql = "SELECT * from articles WHERE id = '".$_GET['id']."'";
-$req = mysql_query($sql);
-while($donnees=mysql_fetch_assoc($req)){ 
+
+if (isset($_GET['id'])) {
+  $sql = "SELECT * from articles WHERE id = '".$_GET['id']."'";
+  $req = mysql_query($sql);
+  while($donnees=mysql_fetch_assoc($req)){ 
 ?>
 
 
-<form role="form" action="./index.php?page=blog/edit" method="post">
+<form role="form" action="./index.php?page=blog/edit&id=<?php echo $donnees['id'];?>" method="post">
   <div class="form-group">
     <label for="titre">Titre</label>
     <input type="text" class="form-control" name="titre" id="titre" value="<?php echo "{$donnees["titre"]}"; ?>" >
@@ -29,19 +27,34 @@ while($donnees=mysql_fetch_assoc($req)){
     <input type="file" name="illustration" id="illustration"value="<?php echo "{$donnees["illustration"]}"; ?>">
   </div>
   <div class="form-group" >
+    <label for="description">Desciption</label>
+    <textarea  id="description" name="description"rows="3" class="col-lg-12"><?php echo "{$donnees["description"]}"; ?></textarea>
+  </div>
+  <div class="form-group" >
     <label for="contenu">Contenu</label>
-    <textarea name="contenu" id="contenu"rows="20" class="col-lg-12"value=""><?php echo "{$donnees["contenu"]}"; ?></textarea>
+    <textarea name="contenu" id="contenu"rows="20" class="col-lg-12"value=""><?php echo "{$donnees["contenu"]}"; ?><?php echo "{$donnees["id"]}"; ?></textarea>
   </div>
    <button type="submit" class="btn btn-success" name="submit">Modifier l'article</button>
 </form>
 <a href="./index.php?page=blog/control" class="btn btn-default">Menu de contrôle</a>
-<?php }; ?>
+
+<?php }; }?>
 
 <?php 
 if (isset($_POST['submit'])) {
-  $sql2 = "UPDATE `articles` SET titre='".$titre."',`description`='".$description."',`contenu`='".$contenu."',`illustration`='".$illustration."',`categorie`= '".$categorie."' WHERE id = '".$_GET['id']."'";
-  $req2 = mysql_query($sql2) or die(mysql_error());
-  echo "Modification effectuée";
+  if (isset($_GET['id'])) {
+    $titre = $_POST['titre'];
+    $illustration =$_POST['illustration'];
+    $contenu = $_POST['contenu'];
+    $categorie = $_POST['categorie'];
+    $description = $_POST['description'];
+
+    $sql2 = "UPDATE `articles` SET titre='".$titre."',`description`='".$description."',`contenu`='".$contenu."',`illustration`='".$illustration."',`categorie`= '".$categorie."' WHERE id='".$_GET['id']."'";
+    $req2 = mysql_query($sql2) or die(mysql_error());
+    echo "Modification effectuée " ;
+  }else{
+    echo "pas d'id";
+  }
 }
 
 
