@@ -49,9 +49,6 @@ if (isset($_POST['submit'])) {
     }
 
 
-/*if(empty($errors)){
-
-}*/
 
 if($errors!=""){
     echo "<ul>";
