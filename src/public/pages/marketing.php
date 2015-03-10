@@ -3,13 +3,14 @@
 	<img src="img/title/marketing.png"> 
 </div>
 </div> 
-		
-		<p>		
+
+<h1 class="text-primary">Le Marketing, générateur de réussite</h1>		
+<p>		
 Des outils marketings sont mis en place afin de calculer les retombés de votre stratégie de communication. </br>
 Le marketing direct permet de mieux cibler votre clientèle et de la fidéliser afin de garantir une rentabilité optimale.</br>
 L'utilisation d'une base de données est indispensable afin de fidéliser le client grâce au mailing, l’envoi d’emailing, des cartes de fidélité. </br>
-		</p>
-<h2>Marketing direct</h2>
+</p>
+<h2 class="text-primary">Marketing direct</h2>
 <p>
 Un ensemble des techniques marketings qui permettent d'identifier les consommateurs d'un produit, de leur adresser directement une proposition commerciale, afin d'obtenir une réponse directe, à laquelle l'entreprise répondra tout aussi directement. 
 Le marketing direct utilise notamment le mailing, le couponing, la vente à domicile et par catalogue, le téléphone et le télécopieur (télémarketing), le téléachat (télé shopping)…</br>
@@ -20,7 +21,7 @@ On estime généralement que le marketing direct se singularise des autres modes
 - ait pour objectif une réponse plus ou moins immédiate du destinataire </br>
 - permette de mesurer plus ou moins précisément les résultats obtenus (taux de réponse, taux de transformation, nombres et montants de commandes, etc.)</br>
 	</p>	
-<h2>Études</h2>
+<h2 class="text-primary">Études</h2>
 <p>
 Le marketing permet de limiter les risques financiers grâce à l’étude de marché.</br>
 Le lancement d'un produit ne se fait jamais au hasard. Toute nouvelle mise sur le marché est un pari. Pour en limiter les risques, le produit doit correspondre aux attentes des consommateurs. C'est précisément là qu'intervient l'étude marketing.

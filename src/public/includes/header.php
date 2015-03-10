@@ -17,12 +17,14 @@
             <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
             <!-- Custom CSS -->
             <link href="css/agency.css" rel="stylesheet">
-            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/style.css">            
+            <link href='http://fonts.googleapis.com/css?family=Century Gothic' rel='stylesheet' type='text/css'>            
             <script src="assets/jquery/dist/jquery.js"></script>
             <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
             <script src="js/vendor/modernizr-2.6.2.min.js"></script> 
             <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-         
+            <link rel="stylesheet" href="css/flaticon.css">
+
         </head>
 
         <body>
