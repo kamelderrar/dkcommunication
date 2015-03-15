@@ -4,28 +4,28 @@
 </div>
 </div> 
 
-<h1 class="text-primary">Le Marketing, générateur de réussite</h1>		
-<p>		
-Des outils marketings sont mis en place afin de calculer les retombés de votre stratégie de communication. </br>
-Le marketing direct permet de mieux cibler votre clientèle et de la fidéliser afin de garantir une rentabilité optimale.</br>
-L'utilisation d'une base de données est indispensable afin de fidéliser le client grâce au mailing, l’envoi d’emailing, des cartes de fidélité. </br>
-</p>
-<h2 class="text-primary">Marketing direct</h2>
-<p>
-Un ensemble des techniques marketings qui permettent d'identifier les consommateurs d'un produit, de leur adresser directement une proposition commerciale, afin d'obtenir une réponse directe, à laquelle l'entreprise répondra tout aussi directement. 
-Le marketing direct utilise notamment le mailing, le couponing, la vente à domicile et par catalogue, le téléphone et le télécopieur (télémarketing), le téléachat (télé shopping)…</br>
+<h1 class="text-primary">Marketing traditionnel et e-marketing</h1>		
+	<p>
+		Le marketing traditionnel a dû évoluer face à l'éclosion d'Internet. Le principe de base reste le même, la cible reste au coeur	du projet, la segmentation est la clé mais l'approche est différente.	
+	</p>
 
-On estime généralement que le marketing direct se singularise des autres modes d’actions marketing et notamment de la publicité par le fait qu’une campagne de marketing direct :</br>
-- propose un message personnalisé </br>
-- soit adressée à partir d’un fichier (adresse, numéro de téléphone,..) </br>
-- ait pour objectif une réponse plus ou moins immédiate du destinataire </br>
-- permette de mesurer plus ou moins précisément les résultats obtenus (taux de réponse, taux de transformation, nombres et montants de commandes, etc.)</br>
+<h2 class="text-primary"><img src="img/flaticons/png/report1.png"alt="Marketing traditionnel">Marketing traditionnel</h2>
+	<p>
+		Le marketing traditionnel représente l'étude des 4P (Products, Price, Place et Promotion). 
+		Le but étant de prévoir, constater, adapter ou encore stimuler les besoins du consomateur en s'adaptant à ses évolutions. Par conséquent, les entreprises doivent connaître leurs cibles afin d'adapter
+		au mieux leurs offres. Plusieurs techniques le permettent mais le marketing direct est plutôt mis en avant, car il est moins coûteux et assure plus de proximité avec la cible. Mais Internet a boulversé 
+		les modes d'intéractions entres les entreprises et le marché, d'ou l'apparition de l'e-marketing.	
 	</p>	
-<h2 class="text-primary">Études</h2>
+
+<h2 class="text-primary"><img src="img/flaticons/png/website17.png" alt="E-marketing">E-marketing</h2>
+	<p>
+		L'e-marketing appeleé aussi web marketing est un ensemble de techniques et d'outils liées à la stratégie web. 
+		La réussite devient impensable pour une entreprise sans faire appel au webmarketing. Elle n'a pas d'autres alternatives afin de maîtriser sa e-réputation. 
+		Développer sa proximité avec le client est l'atout majeur du web marketing. Peu importe les objectifs ( faire connaître, faire aimer, inciter, attirer, fidéliser, ...), 
+		il n'y a qu'un seul lieu de rencontre entre les internautes et les entreprises, Internet. L'e-marketing utilise plusieurs techniques comme l'e-mailing mais aussi des outils d'analyse web pour évaluer les retombées.
+	</p>
+
 <p>
-Le marketing permet de limiter les risques financiers grâce à l’étude de marché.</br>
-Le lancement d'un produit ne se fait jamais au hasard. Toute nouvelle mise sur le marché est un pari. Pour en limiter les risques, le produit doit correspondre aux attentes des consommateurs. C'est précisément là qu'intervient l'étude marketing.
-Étudier les comportements d'achat et examiner la concurrence grâce aux enquêtes, échantillons, entretiens qualitatifs et quantitatifs, réunions de groupes ou bien encore des visites dans les magasins pour analyser les hésitations et la prise de décision du consommateur. 
-Des études chiffrées, objectives, utiles pour mettre en place une stratégie commerciale adaptée.</br>
-Nombre d'achats mensuels, test de goût, composition des familles et des habitudes de chacun des membres... autant de données concernant la consommation sont étudiés. </br>
-</p>	
+	Nous observons une évolution assez puissante au niveau du marketing. Le marketing traditionnel reste indispensable mais face aux possibilités offertes par le canal Internet, 
+	le web marketing est une opportunité pour les entreprises d'accéder au succès sur la toile.
+</p>
