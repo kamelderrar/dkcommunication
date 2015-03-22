@@ -3,14 +3,19 @@
 	<img src="img/title/com.png"> 
 </div>
 </div>
-<h1 class="text-primary">La communication, un processus indispensable pour promouvoir un produit ou un service</h1> 
-<p>Du briefing à la validation du projet, des étapes indispensables définissent au fur et à mesure une stratégie de communication efficace à la résolution de vos problèmes de communications. 
-Après une étude de la situation de votre entreprise, un bilan est dressé afin de fixer des objectifs de communication avec un positionnement précis. On déterminera les moyens de communication les plus adaptés, en interne comme en externe, en fonction du budget et planifiés sur une année dans le but d’atteindre ses objectifs et de communiquer efficacement.
+<h1 class="text-primary">Le marché de la communication en 2014</h1> 
+<p>En 2014, les recettes publicitaires des médias baissent de 2,5 %, pour s'établir à 13 milliards d'euros, et les dépenses de communication des annonceurs de 1,6 %, soit un montant de 29, 624 milliards d'euros. 
+Une diminution conséquente, mais moins forte que les trois années précédentes. Internet et la TV remonte le niveau. Internet - display, search, mobile - tire son épingle du jeu, avec des recettes publicitaires en hausse de 4,6 % (2,488 milliards d'euros), soit mieux qu'en 2013 (+4 %). 
+À noter que le mobile - hors réseau social - performe à +35 %. Le search, analysé dans le rapport du Syndicat des régies internet (SRI), est à +4 %, et le display à +1,8 %.
+La publicité extérieure augmente de 0,8 % (versus -1,7 %, en 2013) pour s'établir à 1,174 milliard d'euros. La publicité extérieure digitale, marché de 83 millions d'euros, est à +20,8 % par rapport à 2013.
+Enfin, la télévision, se stabilise à + 0,1 % de recettes publicitaires (versus -3,5 %, en 2013), soit 3,222 milliards d'euros.
 </p>
-<h2 class="text-primary">La stratégie de communication</h2><p>
-Les attentes du client, les éléments clés de la problématique, les enjeux et les objectifs font parties de la première prise de contact afin de connaître au mieux l'entreprise.
-Une étude de la situation est indispensable afin de cerner la position de l’entreprise au sein de son marché.</br>
-Le bilan met en évidence un problème à résoudre par la communication, que ce soit en interne ou en externe.
+
+
+<h2 class="text-primary">La </h2><p>
+La communication d'une entreprise doit être programmée et organisé en prenant en compte plusieurs critères : la cible et ses attentes , les éléments clés de la problématique, 
+les enjeux et les objectifs de communication.</br>
+Une étude de la situation est indispensable afin de cerner la position de l’entreprise au sein de son marché.
 </p>
 <p>
 À l'issue de cette réflexion, il devient alors possible de se concentrer sur un choix possible de positionnement et de définir l’objectif principal de la communication.

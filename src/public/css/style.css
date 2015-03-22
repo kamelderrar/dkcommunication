@@ -100,7 +100,25 @@ form button :not(nav){
 textarea{
 	color: black !important;
 }
+/*** ADMIN CONNECT   **********************************************/
+.panel-heading {
+    padding: 5px 15px;
+}
 
+.panel-footer {
+	padding: 1px 15px;
+	color: #A0A0A0;
+}
+
+.profile-img {
+	width: 96px;
+	height: 96px;
+	margin: 0 auto 10px;
+	display: block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
 /******   BLOG       ************************************************/
 .bloccategories{
 	border: 1px solid grey;
@@ -171,3 +189,4 @@ padding-top: 25px;
 button.btn btn-success{
 	margin: 5px;
 }
+/******   FOOTER       ************************************************/

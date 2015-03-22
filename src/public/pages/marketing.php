@@ -6,7 +6,7 @@
 
 <h1 class="text-primary">Marketing traditionnel et e-marketing</h1>		
 	<p>
-		Le marketing traditionnel a dû évoluer face à l'éclosion d'Internet. Le principe de base reste le même, la cible reste au coeur	du projet, la segmentation est la clé mais l'approche est différente.	
+		Le marketing traditionnel a dû évoluer face à l'éclosion d'	Internet. Le principe de base reste le même, la cible reste au coeur	du projet, la segmentation est la clé mais l'approche est différente.	
 	</p>
 
 <h2 class="text-primary"><img src="img/flaticons/png/report1.png"alt="Marketing traditionnel">Marketing traditionnel</h2>

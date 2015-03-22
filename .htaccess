@@ -20,6 +20,7 @@
     RewriteRule ^edit.html$ index.php?page=blog/edit
     RewriteRule ^dk.html$ index.php?page=blog/dk
     RewriteRule ^articles.html$ index.php?page=blog/articles
+    RewriteRule ^websiteplan.html$ index.php?page=websiteplan
 
     ErrorDocument 404 /index.php?page=404
     

@@ -1,58 +1,20 @@
-    <section id="services">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Découvrez toutes nos prestations</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-3">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-users fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Communication</h4>
-                    <p class="text-muted">Du conseil à l'élaboration d'une stratégie de communication, Dk met en avant notre collaboration.</p>
-                </div>
-                <div class="col-md-3">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Marketing</h4>
-                    <p class="text-muted">Optimiser votre stratégie grâce à divers outils de marketing et contrôler ainsi les retombées.</p>
-                </div>
-                <div class="col-md-3">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-book fa- fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Print</h4>
-                    <p class="text-muted">Avec la mise en place d'un cahier des charges défini et détaillé, nous réalisons vos idées.</p>
-                </div>
-                <div class="col-md-3">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web design & Developpement</h4>
-                    <p class="text-muted">De la simple réalisation du design de votre site au développement de modules, nous optimisons l'ergonomie de votre site</p>
-                </div>
-            </div>
-    </section>
+
              </div>
         </div>
         </div>
-
-
-			<script src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
+        
+            <script src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
             <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
             <script src="js/plugins.js"></script>
-            <script src="js/main.js"></script>
-            <script src="assets/bootstrap/dist/js/bootstrap.min.js">
-    </script>
 
+            <script src="js/main.js"></script>
+            <script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+            <script type="text/javascript">
+
+            $('#tree2').treed({openedClass : 'glyphicon-folder-open', closedClass : 'glyphicon-folder-close'});
+
+            </script>
             <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
             <script>
                 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -63,4 +25,50 @@
                 ga('create','UA-XXXXX-X');ga('send','pageview');
             </script>
         </body>
+        <footer>
+        <!-- footer_mots_cles -->
+        <div class="container text-center">
+            <hr />
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="col-md-3">
+                <ul class="nav nav-pills nav-stacked">
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <ul class="nav nav-pills nav-stacked">
+                  <li><a href="#">Product for Mac</a></li>
+                  <li><a href="#">Product for Windows</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <ul class="nav nav-pills nav-stacked">
+                  <li><a href="#">Web analytics</a></li>
+                  <li><a href="#">Presentations</a></li>          
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <ul class="nav nav-pills nav-stacked">
+                  <li><a href="#">Product Help</a></li>
+                  <li><a href="#">Developer API</a></li>
+                </ul>
+              </div>  
+            </div>
+          </div>
+          <hr>
+            <div class="row">
+                <div class="col-lg-12">                    
+                  <p>© copyright 2014 - dk Communication & Marketing 
+                    <a href="#"><span class="label label-danger">Twitter</span></a> 
+                    <a href="#"><span class="label label-danger">Facebook</span></a> 
+                    | <i class="icon-user"></i> <a href="#">Admin</a> 
+                    | <i class="icon-calendar"></i> <?php  date_default_timezone_set("Europe/Paris");echo date("d-m-Y H:i")?>
+                  </p>
+
+                </div>
+            </div>
+        <!-- end_footer_mots_cles -->  
+        </footer>
     </html>
