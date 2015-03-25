@@ -190,3 +190,43 @@ button.btn btn-success{
 	margin: 5px;
 }
 /******   FOOTER       ************************************************/
+footer a{
+
+}
+footer a .titre_footer{
+font-style: italic;
+font-weight: bold;
+}
+
+
+
+footer a:link .titre_footer{
+	color: white;
+}
+footer a:hover .titre_footer{
+	color: #428bca;
+}
+footer a:visited .titre_footer{
+	color: white;
+}
+footer a:link{
+	color: white;
+}
+footer a:hover{
+	color: #428bca;
+}
+footer a:visited{
+	color: white;
+}
+footer ul li {
+	list-style-type: none;
+}
+footer li a{
+	text-decoration: none;
+
+}
+
+footer a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}

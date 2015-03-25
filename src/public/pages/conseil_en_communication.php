@@ -4,8 +4,8 @@
 </div>
 </div>
 <div class="row">
-<div class="col-lg-5 ">
-<img src="img/illustrations/strategie-communication2.png" alt="communiquer efficacement grâce à la stratégie de communication 	">
+<div class="col-lg-5 col-lg-offset-2">
+<img src="img/illustrations/strategie_de_communication.jpg" alt="communiquer efficacement grâce à la stratégie de communication 	">
 </div>
 </div>
 <h1 class="text-primary">Communiquer efficacement</h1> 

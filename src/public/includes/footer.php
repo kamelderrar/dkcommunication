@@ -32,21 +32,15 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="col-md-3">
-                <ul class="nav nav-pills nav-stacked">
+                <ul>
+                  <li><a href="#"><span class="titre_footer">Communication</span></a></li>
                   <li><a href="#">Communication</a></li>
-                  <li><a href="#">Communication</a></li>
-                  <li><a href="#">Communication</a></li>
-                  <li><a href="#">Communication</a></li>
-                  <li><a href="#">Communication</a></li>
-                  <li><a href="#">Communication</a></li>
-                  <li><a href="#">Communication</a></li>
-                  <li><a href="#">Communication</a></li>
-                  <li><a href="#">Communication</a></li>
+   
                 </ul>
               </div>
               <div class="col-md-3">
-                <ul class="nav nav-pills nav-stacked">
-                  <li><a href="#">Marketing</a></li>
+                <ul>
+                  <li><a href="#"><span class="titre_footer">Marketing</span></a></li>
                   <li><a href="#">Etudes</a></li>
                   <li><a href="#">Analyses</a></li>
                   <li><a href="#">Prix</a></li>
@@ -57,28 +51,17 @@
                 </ul>
               </div>
               <div class="col-md-3">
-                <ul class="nav nav-pills nav-stacked">
+                <ul>
+                  <li><a href="#"><span class="titre_footer">Print</span></a></li>          
                   <li><a href="#">Print</a></li>          
-                  <li><a href="#">Print</a></li>          
-                  <li><a href="#">Print</a></li>          
-                  <li><a href="#">Print</a></li>          
-                  <li><a href="#">Print</a></li>          
-                  <li><a href="#">Print</a></li>          
-                  <li><a href="#">Print</a></li>          
-                  <li><a href="#">Print</a></li>          
-                  <li><a href="#">Print</a></li>          
+       
                 </ul>
               </div>
               <div class="col-md-3">
-                <ul class="nav nav-pills nav-stacked">
+                <ul>
+                  <li><a href="#"><span class="titre_footer">Web</span></a></li>
                   <li><a href="#">Web</a></li>
-                  <li><a href="#">Web</a></li>
-                  <li><a href="#">Web</a></li>
-                  <li><a href="#">Web</a></li>
-                  <li><a href="#">Web</a></li>
-                  <li><a href="#">Web</a></li>
-                  <li><a href="#">Web</a></li>
-                  <li><a href="#">Web</a></li>
+
                 </ul>
               </div>  
             </div>
