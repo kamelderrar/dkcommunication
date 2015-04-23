@@ -32,7 +32,7 @@
   								<div class="row">
   									<div class="center-block">
   										<img class="profile-img"
-  											src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120" alt="">
+  											src="img/flaticons/png/blog1.png" alt="dk communication & marketing">
   									</div>
   								</div>
   								<div class="row">
@@ -64,7 +64,7 @@
                 </div>
   			</div>
 
-
+</div>
 <?php
 
 if (isset($_POST['submit'])) {
@@ -73,7 +73,7 @@ if (isset($_POST['submit'])) {
 
   if ($password!="" && $login!="") {
     if ($password==="04071984" && $login==="dkcom") {
-      echo '<a href="./index.php?page=blog/control"><button class="btn btn-success">Accès control </button></a>'.PHP_EOL;
+      echo '<br><a href="./index.php?page=blog/control"><button class="btn btn-success">Accès control </button></a>'.PHP_EOL;
     }
   }else{
     echo "Veuillez remplir les champs login et password !!";
@@ -83,4 +83,3 @@ if (isset($_POST['submit'])) {
 
 
  ?>     
-</div>

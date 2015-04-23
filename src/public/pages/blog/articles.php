@@ -1,6 +1,5 @@
 <div id="articles">
-<?php 
-
+<?php
 $sql = "SELECT * from articles WHERE id = '".$_GET['id']."'";
 $req = mysql_query($sql);
 while($donnees=mysql_fetch_assoc($req)){ 
@@ -18,20 +17,32 @@ while($donnees=mysql_fetch_assoc($req)){
 		<p><?php echo "{$donnees["contenu"]}"; ?></p> 
 
 		</div>
-		<?php
-		};
-		?>
+		
 	</div>
+<?php
+};
+?>
+
+
+
 	<div class="col-lg-3 col-lg-offset-9">
 	<div class="bloccategories">
 	<div class="categories">
-		<h4>Catégories</h4>
-		<a href="#">Communication</a><br>
-		<a href="#">Marketing</a><br>
-		<a href="#">Web</a><br>
-		<a href="#">Print</a><br>
 
+		<h4>Catégories</h4>
+<?php
+$sql2 = "SELECT DISTINCT categorie from articles";
+$req2 = mysql_query($sql2);
+while($donnees2=mysql_fetch_assoc($req2)){  
+	$donnees2["categorie"]=$donnees2["categorie"]
+?>
+		<a href="./index.php?page=blog/blog_categorie&categorie=<?php echo strtolower($donnees2["categorie"]);?>"><?php echo  "{$donnees2["categorie"]}"; ?></a><br>				
+<?php
+};
+?>
 	</div>
+
+
 	<div class="motscles">
 		<h4>Mots clés</h4>
 		<a href="#">Stratégie</a><br>
@@ -47,6 +58,8 @@ while($donnees=mysql_fetch_assoc($req)){
 
 	</div>
 	</div>
+
 	</div>
 </div>
 </div>
+

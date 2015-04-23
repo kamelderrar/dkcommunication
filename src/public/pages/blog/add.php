@@ -6,10 +6,11 @@
    <div class="form-group">
   <label for="categorie">Catégorie</label>
   <select class="form-control" name="categorie"id="categorie">
-	  <option name="communication" id="communication">Communication</option>
-	  <option name="marketing" id="marketing">Marketing</option>
-	  <option name="print" id="print">Print</option>
-	  <option name="web" id="web">Web</option>
+	  <option name="communication" id="communication">communication</option>
+	  <option name="marketing" id="marketing">marketing</option>
+    <option name="print" id="print">print</option>
+    <option name="conseils_pratiques" id="conseils_pratiques">conseils pratiques</option>
+	  <option name="web" id="web">web</option>
   </select>
  </div>
   <div class="form-group">
@@ -17,7 +18,7 @@
     <input type="file" id="illustration"name="illustration" >
   </div>
   <div class="form-group" >
-    <label for="description">Desciption</label>
+    <label for="description">Description</label>
     <textarea  id="description" name="description"rows="3" class="col-lg-12"></textarea>
   </div>
   <div class="form-group" >

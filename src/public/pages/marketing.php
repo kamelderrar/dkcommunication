@@ -19,7 +19,7 @@
 
 <h2 class="text-primary"><img src="img/flaticons/png/website17.png" alt="E-marketing">E-marketing</h2>
 	<p>
-		L'e-marketing appeleé aussi web marketing est un ensemble de techniques et d'outils liées à la stratégie web. 
+		L'e-marketing appelé aussi web marketing est un ensemble de techniques et d'outils liés à la stratégie web. 
 		La réussite devient impensable pour une entreprise sans faire appel au webmarketing. Elle n'a pas d'autres alternatives afin de maîtriser sa e-réputation. 
 		Développer sa proximité avec le client est l'atout majeur du web marketing. Peu importe les objectifs ( faire connaître, faire aimer, inciter, attirer, fidéliser, ...), 
 		il n'y a qu'un seul lieu de rencontre entre les internautes et les entreprises, Internet. L'e-marketing utilise plusieurs techniques comme l'e-mailing mais aussi des outils d'analyse web pour évaluer les retombées.

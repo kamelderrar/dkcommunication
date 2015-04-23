@@ -13,6 +13,7 @@
     RewriteRule ^web.html$ index.php?page=web
     RewriteRule ^webrea.html$ index.php?page=realisations_web
     RewriteRule ^blog.html$ index.php?page=blog/blog
+    RewriteRule ^blog_categories.html$ index.php?page=blog/blog_categories
     RewriteRule ^connect.html$ index.php?page=blog/connect
     RewriteRule ^delete.html$ index.php?page=blog/delete
     RewriteRule ^control.html$ index.php?page=blog/control
@@ -21,6 +22,7 @@
     RewriteRule ^dk.html$ index.php?page=blog/dk
     RewriteRule ^articles.html$ index.php?page=blog/articles
     RewriteRule ^websiteplan.html$ index.php?page=websiteplan
+    RewriteRule ^produits.html$ index.php?page=produits
 
     ErrorDocument 404 /index.php?page=404
     

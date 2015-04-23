@@ -6,7 +6,7 @@
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <title></title>
+            <title>dk communication & marketing</title>
             <meta name="description" content="">
             <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,6 +25,7 @@
             <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
             <link rel="stylesheet" href="css/flaticon.css">
 
+
         </head>
 
         <body>
@@ -41,11 +42,11 @@
     <div class="container">
     <div class="row">
         <!-- logo -->
-    <div class="col-lg-1">
+    <div class="col-lg-2">
         <div class="logo"><a href="./index.php?page=home"><img src="img/logo.png"></a></div>
     </div>
          <!-- end-logo -->   
-    <div class="col-lg-11 col-lg-offset-1">
+    <div class="col-lg-10">
         <!-- Contient le lien home et le bouton de deroulement du menu responsive -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -79,19 +80,23 @@
             <li><a href="./index.php?page=contact">Contact</a></li>
             <li><a href="./index.php?page=blog/blog">blog</a></li>
           </ul>
+
+
         <!-- formulaire de recherche -->
-          <form class="navbar-form navbar-left" role="search" action="./index.php?page=search" method="POST">
+          <form class="navbar-form navbar-left" role="search" action="./index.php?page=search" method="post">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="rechercher" name="recherche">
+              <input type="text" class="form-control" placeholder="rechercher" name="recherche" id="recherche">
             </div>
-            <button type="submit" class="btn btn-default" name="bouton">Ok</button>
-          </form>          
+            <button type="submit" class="btn btn-default">Ok</button>
+          </form>  
+
+
         </div><!-- Fin du contenuv de tous les liens de navigation -->
     </div> <!-- fin col-lg -->  
     </div> <!-- fin container -->  
     </div> <!-- fin row -->  
 </nav> 
-         <div class="container-fluid">
+        <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6 col-lg-offset-3">
 

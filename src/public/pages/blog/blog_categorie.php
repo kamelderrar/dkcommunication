@@ -1,5 +1,5 @@
 <?php 
-$sql = "SELECT * from articles ORDER BY id DESC LIMIT 0,5";
+$sql = "SELECT * from articles WHERE categorie= '".$_GET['categorie']."' ORDER BY id DESC LIMIT 0,5";
 $req = mysql_query($sql);
 while($donnees=mysql_fetch_assoc($req)){ 
 ?>
@@ -23,5 +23,3 @@ while($donnees=mysql_fetch_assoc($req)){
 	</div>
 	<?php } ?>
 </div>
-	 <script type="text/javascript">
- 
