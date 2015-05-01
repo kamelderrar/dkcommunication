@@ -1,17 +1,17 @@
 <div class="container" style="margin-top:40px">
       <div class="row">
-        <div class="col-md-4 col-md-offset-3">
+        <div class="col-md-4 col-md-offset-2">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h2 class="titre_connect"> Admin connect</h2>
             </div>
             <div class="panel-body">
-              <form role="form" action="./index.php?page=blog/connect" method="POST">
+              <form role="form" action="./index.php?page=blog/dk" method="POST">
                 <fieldset>
                   <div class="row">
                     <div class="center-block">
-                      <img class="profile-img"
-                        src="img/flaticons/png/blog1.png" alt="dk communication & marketing">
+                      <img class="profile-img" src="img/logo.png"
+                    alt="">
                     </div>
                   </div>
                   <div class="row">

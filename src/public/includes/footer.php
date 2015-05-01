@@ -3,7 +3,6 @@
         </div><!-- end row -->
         </div><!-- end container-fluid -->
 
-            <script src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
             <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
             <script src="js/plugins.js"></script>
@@ -16,14 +15,46 @@
 
             <script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
 
-            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+            <!-- Google Analytics: -->
             <script>
-                (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-                e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-                e.src='//www.google-analytics.com/analytics.js';
-                r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-                ga('create','UA-XXXXX-X');ga('send','pageview');
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-48466584-1', 'dkcommunication.fr');
+                ga('send', 'pageview');
+
+                $(document).ready(function(){
+
+
+                $('.filterable .filters input').keyup(function(e){
+                    /* Ignore tab key */
+                    var code = e.keyCode || e.which;
+                    if (code == '9') return;
+                    /* Useful DOM data and selectors */
+                    var $input = $(this),
+                    inputContent = $input.val().toLowerCase(),
+                    $panel = $input.parents('.filterable'),
+                    column = $panel.find('.filters th').index($input.parents('th')),
+                    $table = $panel.find('.table'),
+                    $rows = $table.find('tbody tr');
+                    /* Dirtiest filter function ever ;) */
+                    var $filteredRows = $rows.filter(function(){
+                        var value = $(this).find('td').eq(column).text().toLowerCase();
+                        return value.indexOf(inputContent) === -1;
+                    });
+                    /* Clean previous no-result if exist */
+                    $table.find('tbody .no-result').remove();
+                    /* Show all rows, hide filtered ones (never do that outside of a demo ! xD) */
+                    $rows.show();
+                    $filteredRows.hide();
+                    /* Prepend no-result row if all rows are filtered */
+                    if ($filteredRows.length === $rows.length) {
+                        $table.find('tbody').prepend($('<tr class="no-result text-center"><td colspan="'+ $table.find('.filters th').length +'">No result found</td></tr>'));
+                    }
+                });
+            });
             </script>
 
 
@@ -90,8 +121,8 @@
             <div class="row">
                 <div class="col-lg-12">                    
                   <p>© copyright 2014 - dk Communication & Marketing 
-                    <a href="#"><span class="label label-danger">Twitter</span></a> 
-                    <a href="#"><span class="label label-danger">Facebook</span></a> 
+                    <a href="https://twitter.com/dk_Com_"><span class="label label-danger">Twitter</span></a> 
+                    <a href="https://www.facebook.com/dkcommunication?ref=settings"><span class="label label-danger">Facebook</span></a> 
                     | <i class="icon-user"></i> <a href="./index.php?page=blog/dk">Admin</a> 
                     | <i class="icon-calendar"></i> <?php  date_default_timezone_set("Europe/Paris");echo date("d-m-Y H:i")?>
                   </p>

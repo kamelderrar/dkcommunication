@@ -26,7 +26,7 @@ footer {
 .navbar-header a:hover{
 	color:#fff !important;
 }
-.navbar-default a:hover, a:visited{
+.navbar-default a:hover{
     color:black !important;	
 }
 .navbar-default,.dropdown-menu{
@@ -303,8 +303,8 @@ textarea{
 	white-space: normal !important;
 }
 .illustration img{
-	width:90%;
-	height: 90%;
+	width:80%;
+	height: 80%;
 }
 .categories a{
 	color:white;
@@ -346,8 +346,8 @@ padding-top: 25px;
 	border-radius: 5px;
 }
 .article_blog img{
-	width: 55%;
-	height: 55%;
+	width: 50%;
+	height: 50%;
 }
 button.btn btn-success{
 	margin: 5px;

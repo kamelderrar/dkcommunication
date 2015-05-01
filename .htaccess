@@ -23,6 +23,7 @@
     RewriteRule ^articles.html$ index.php?page=blog/articles
     RewriteRule ^websiteplan.html$ index.php?page=websiteplan
     RewriteRule ^produits.html$ index.php?page=produits
+    RewriteRule ^raccourci_indesign.html$ index.php?page=articles/raccourci_indesign
 
     ErrorDocument 404 /index.php?page=404
     

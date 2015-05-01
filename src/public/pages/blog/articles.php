@@ -6,27 +6,16 @@ while($donnees=mysql_fetch_assoc($req)){
 ?>
 <div id="blog">
 <div class="row">
-
+	<div class="article_blog">
 	<div class="col-lg-9">
-		<div class="article_blog">
 		<h1><?php echo "{$donnees["titre"]}"; ?></h1>
 		<h3><?php echo date("j/n/Y",strtotime($donnees["date"])); ?> | <?php echo "{$donnees["categorie"]}"; ?></h3> 
 		<div class="container">
 		<?php echo "<img src='img/illustrations/{$donnees["illustration"]}'/>"?>
-		</div>	
-		<p><?php echo "{$donnees["contenu"]}"; ?></p> 
-
 		</div>
-		
-	</div>
-<?php
-};
-?>
-
-
-
-	<div class="col-lg-3 col-lg-offset-9">
-	<div class="bloccategories">
+		</div>
+	<div class="col-lg-3">
+			<div class="bloccategories">
 	<div class="categories">
 
 		<h4>Catégories</h4>
@@ -58,8 +47,27 @@ while($donnees2=mysql_fetch_assoc($req2)){
 
 	</div>
 	</div>
+	</div>		</div>
 
-	</div>
+	
 </div>
+	</div>		
+<div class="row">
+<div class="col-lg-12">
+
+	<p><?php echo "{$donnees["contenu"]}"; ?></p> 
+
+</div>
+</div>
+		
+
+<?php
+};
+?>
+
+
+
+
+
 </div>
 
