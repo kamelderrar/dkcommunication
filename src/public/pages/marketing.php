@@ -25,7 +25,7 @@
 		il n'y a qu'un seul lieu de rencontre entre les internautes et les entreprises, Internet. L'e-marketing utilise plusieurs techniques comme l'e-mailing mais aussi des outils d'analyse web pour évaluer les retombées.
 	</p>
 
-<p>
-	Nous observons une évolution assez puissante au niveau du marketing. Le marketing traditionnel reste indispensable mais face aux possibilités offertes par le canal Internet, 
-	le web marketing est une opportunité pour les entreprises d'accéder au succès sur la toile.
-</p>
+	<p>
+		Nous observons une évolution assez puissante au niveau du marketing. Le marketing traditionnel reste indispensable mais face aux possibilités offertes par le canal Internet, 
+		le web marketing est une opportunité pour les entreprises d'accéder au succès sur la toile.
+	</p>

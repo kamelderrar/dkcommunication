@@ -121,10 +121,11 @@
             <div class="row">
                 <div class="col-lg-12">                    
                   <p>© copyright 2014 - dk Communication & Marketing 
-                    <a href="https://twitter.com/dk_Com_"><span class="label label-danger">Twitter</span></a> 
-                    <a href="https://www.facebook.com/dkcommunication?ref=settings"><span class="label label-danger">Facebook</span></a> 
-                    | <i class="icon-user"></i> <a href="./index.php?page=blog/dk">Admin</a> 
-                    | <i class="icon-calendar"></i> <?php  date_default_timezone_set("Europe/Paris");echo date("d-m-Y H:i")?>
+                    <a href="https://twitter.com/dk_Com_"target="_blank"><span class="label label-danger">Twitter</span></a> 
+                    <a href="https://www.facebook.com/dkcommunication?ref=settings"target="_blank"><span class="label label-danger">Facebook</span></a> 
+<!--                     | <i class="icon-user"></i> <a href="./index.php?page=blog/dk">Admin</a> 
+                     -->                    
+                     | <i class="icon-calendar"></i> <?php  date_default_timezone_set("Europe/Paris");echo date("d-m-Y H:i")?>
                   </p>
 
                 </div>

@@ -10,6 +10,7 @@
     <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
     <li data-target="#bs-carousel" data-slide-to="1"></li>
     <li data-target="#bs-carousel" data-slide-to="2"></li>
+    <li data-target="#bs-carousel" data-slide-to="3"></li>
   </ol>
   
   <!-- Wrapper for slides -->
@@ -18,7 +19,7 @@
       <div class="slide-1"></div>
       <div class="hero">
         <hgroup>
-            <h1>We are creative</h1>        
+            <h1>We are communication</h1>        
             <h3>Get start your next awesome project</h3>
         </hgroup>
         <button class="btn btn-hero btn-lg" role="button">Devis gratuit</button>
@@ -28,7 +29,7 @@
       <div class="slide-2"></div>
       <div class="hero">        
         <hgroup>
-            <h1>We are smart</h1>        
+            <h1>We are marketing</h1>        
             <h3>Get start your next awesome project</h3>
         </hgroup>       
         <button class="btn btn-hero btn-lg" role="button">Devis gratuit</button>
@@ -38,7 +39,17 @@
       <div class="slide-3"></div>
       <div class="hero">        
         <hgroup>
-            <h1>We are amazing</h1>        
+            <h1>We are print</h1>        
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">Devis gratuit</button>
+      </div>
+    </div>    
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>We are web</h1>        
             <h3>Get start your next awesome project</h3>
         </hgroup>
         <button class="btn btn-hero btn-lg" role="button">Devis gratuit</button>
@@ -65,8 +76,8 @@
                 <h3 class="text-primary">Communication</h3>
                     </div>
                     <div class="panel-body">
-                        <p>Du conseil à l'élaboration d'une stratégie de communication, dk communication met en avant notre collaboration. Communiquer efficacement passe par l'élaboration d'une stratégie de communication qui tiendra compte des contraintes imposées.</p>
-                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                      <p>Grâce à notre accompagnement dans votre stratégie, votre communication sera adaptée en tenant compte des différents critères (objectifs, cibles, opportunités, moyens), et contraintes (budgétaire, temporelles, etc ...).</p>
+                        <a href="index.php?page=conseil_en_communication" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
       </div>
@@ -80,8 +91,8 @@
                 <h3 class="text-primary">Marketing</h3>
                     </div>
                     <div class="panel-body">
-                        <p>Du conseil à l'élaboration d'une stratégie de communication, dk communication met en avant notre collaboration. Communiquer efficacement passe par l'élaboration d'une stratégie de communication qui tiendra compte des contraintes imposées.</p>
-                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                      <p>Réussir sur Interne, ou encore trouver la bonne formule pour atteindre sa cible, cela passe par un contenu adapté, cohérent, et surtout un bon positionnement par rapport aux besoins de la cible.</p>
+                        <a href="index.php?page=marketing" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
       </div>
@@ -95,8 +106,8 @@
                 <h3 class="text-primary">Print</h3>
                     </div>
                     <div class="panel-body">
-                        <p>Du conseil à l'élaboration d'une stratégie de communication, dk communication met en avant notre collaboration. Communiquer efficacement passe par l'élaboration d'une stratégie de communication qui tiendra compte des contraintes imposées.</p>
-                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                      <p>dk communication & marketing intervient dans la réalisation des différents supports de communication. Nous adaptons votre image en fonction de la stratégie de communication définie afin d'optimiser les retombées.</p>
+                        <a href="index.php?page=print" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
       </div>
@@ -110,8 +121,8 @@
                 <h3 class="text-primary">Web</h3>
                     </div>
                     <div class="panel-body">
-                        <p>Du conseil à l'élaboration d'une stratégie de communication, dk communication met en avant notre collaboration. Communiquer efficacement passe par l'élaboration d'une stratégie de communication qui tiendra compte des contraintes imposées.</p>
-                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                      <p>La création de site web comprend également l'optimisation de la navigation afin de guider l'internaute, mais aussi l'optimisation des outils qui s'adaptent à l'évolution des différentes technologies.</p>
+                          <a href="index.php?page=web" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
       </div>

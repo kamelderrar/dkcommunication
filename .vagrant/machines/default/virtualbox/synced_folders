@@ -1,1 +1,1 @@
-{"virtualbox":{"/var/www/project":{"guestpath":"/var/www/project","hostpath":"C:/www/dkcommunication"}}}
+{"virtualbox":{"/var/www/project":{"guestpath":"/var/www/project","hostpath":"C:/www/dkcommunication","disabled":false}}}
