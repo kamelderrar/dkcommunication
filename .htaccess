@@ -1,6 +1,9 @@
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
     RewriteEngine On
+
+    RewriteCond %{REQUEST_URI} !^/src/public
+    RewriteRule (.*) /src/public/$1 [L]
     
     RewriteRule ^index.html$ index.php?page=home
     RewriteRule ^home.html$ index.php?page=home

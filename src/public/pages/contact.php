@@ -1,4 +1,3 @@
-
 <?php  
     define( 'MAIL_TO', /* >>>>> */'contact@dkcommunication.fr'/* <<<<< */ );  
     define( 'MAIL_FROM', '' ); 

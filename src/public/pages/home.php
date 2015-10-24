@@ -3,9 +3,8 @@
 <!-- Services Section -->
 <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
   <!-- Overlay -->
-<!--  <div class="overlay"></div>  -->
-
-  <!-- Indicators -->
+<!--  <div class="overlay"></div> 
+ -->  <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
     <li data-target="#bs-carousel" data-slide-to="1"></li>
@@ -20,9 +19,9 @@
       <div class="hero">
         <hgroup>
             <h1>We are communication</h1>        
-            <h3>Get start your next awesome project</h3>
+            <h3>Réalisez votre projet de communication</h3>
         </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">Devis gratuit</button>
+        <a href="index.php?page=contact"><button class="btn btn-hero btn-lg" role="button">En savoir plus</button></a>
       </div>
     </div>
     <div class="item slides">
@@ -30,9 +29,9 @@
       <div class="hero">        
         <hgroup>
             <h1>We are marketing</h1>        
-            <h3>Get start your next awesome project</h3>
+            <h3>Réalisez votre projet de marketing</h3>
         </hgroup>       
-        <button class="btn btn-hero btn-lg" role="button">Devis gratuit</button>
+        <a href="index.php?page=contact"><button class="btn btn-hero btn-lg" role="button">En savoir plus</button></a>
       </div>
     </div>
     <div class="item slides">
@@ -40,19 +39,19 @@
       <div class="hero">        
         <hgroup>
             <h1>We are print</h1>        
-            <h3>Get start your next awesome project</h3>
+            <h3>Réalisez votre projet print</h3>
         </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">Devis gratuit</button>
+        <a href="index.php?page=contact"><button class="btn btn-hero btn-lg" role="button">En savoir plus</button></a>
       </div>
     </div>    
     <div class="item slides">
-      <div class="slide-3"></div>
+      <div class="slide-4"></div>
       <div class="hero">        
         <hgroup>
             <h1>We are web</h1>        
-            <h3>Get start your next awesome project</h3>
+            <h3>Réalisez votre projet web</h3>
         </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">Devis gratuit</button>
+        <a href="index.php?page=contact"><button class="btn btn-hero btn-lg" role="button">En savoir plus</button></a>
       </div>
     </div>
   </div> 
@@ -76,7 +75,7 @@
                 <h3 class="text-primary">Communication</h3>
                     </div>
                     <div class="panel-body">
-                      <p>Grâce à notre accompagnement dans votre stratégie, votre communication sera adaptée en tenant compte des différents critères (objectifs, cibles, opportunités, moyens), et contraintes (budgétaire, temporelles, etc ...).</p>
+                      <p>Grâce à notre accompagnement dans votre stratégie, votre communication sera adaptée en tenant compte des différents critères (objectifs, cibles, opportunités, moyens), et contraintes (budgétaires, temporelles, etc ...).</p>
                         <a href="index.php?page=conseil_en_communication" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
@@ -91,7 +90,7 @@
                 <h3 class="text-primary">Marketing</h3>
                     </div>
                     <div class="panel-body">
-                      <p>Réussir sur Interne, ou encore trouver la bonne formule pour atteindre sa cible, cela passe par un contenu adapté, cohérent, et surtout un bon positionnement par rapport aux besoins de la cible.</p>
+                      <p>Réussir sur Internet, ou encore trouver la bonne formule pour atteindre sa cible, cela passe par un contenu adapté, cohérent, et surtout un bon positionnement par rapport aux besoins de la cible.</p>
                         <a href="index.php?page=marketing" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>

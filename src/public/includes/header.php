@@ -6,12 +6,20 @@
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <title>dk communication & marketing - agence de communication à Valence (Drôme Ardèche)</title>
-            <meta name="description" content="">
-            <meta name="description" content="Agence web de création de site Internet, TooEasy est spécialisé sur Valence (Drôme Ardèche Isère) dans la création web et le référencement de sites internet"/>
-            <meta name="title" content="dk communication & marketing - agence de communication à Valence (Drôme Ardèche)"/>
-            <meta name="keywords" content="agence internet valence, agence web valence, création site web, création site internet, référencement web, référencement internet, agence communication, site e-commerce, drome, ardeche, isère, valence, romans, montélimar, aubenas, dk communication"/>
+            <title>dk Communication & Marketing - agence de communication à Romans et Valence (Drôme Ardèche)</title>
+            <meta name="robots" content="index, follow" />
+            <meta name="keywords" content="agence internet Romans et Valence, agence web Romans et Valence, création site web, création site internet, référencement web, référencement internet, agence communication, site e-commerce, drome, ardeche, isère, valence, romans, montélimar, aubenas, dk Communication"/>
             <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <meta property="og:description" content="Agence web de création de site Internet, dk Communication & Marketing est spécialisé sur Romans et Valence (Drôme Ardèche Isère) dans la création web et le référencement de sites internet"/>
+            <meta property="og:title" content="dk communication & marketing - agence de communication à Valence (Drôme Ardèche)"/>
+            <meta property="og:locality" content="Romans" />
+            <meta property="og:region" content="Rhône-Alpes" />
+            <meta property="og:postal-code" content="26100" />
+            <meta property="og:country-name" content="France" />
+            <meta property="og:locale" content="fr_FR" />
+            <meta property="og:email" content="contact@dkcommunication.fr" />
+
             <link rel="stylesheet" href="css/normalize.css">
             
             <!-- Custom Fonts -->
@@ -25,6 +33,23 @@
             <script src="js/vendor/modernizr-2.6.2.min.js"></script> 
             <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
             <link rel="stylesheet" href="css/flaticon.css">
+            <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+            <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+            <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+            <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+            <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+            <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+            <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+            <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+            <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+            <link rel="manifest" href="/manifest.json">
+            <meta name="msapplication-TileColor" content="#ffffff">
+            <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+            <meta name="theme-color" content="#ffffff">
 
 
         </head>
@@ -53,7 +78,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="./index.php?page=home">dk communication</a>
+                        <a class="navbar-brand" href="./index.php?page=home">dk Communication</a>
                     </div>
 
                     <!--Contient tous les liens de navigation -->
@@ -76,7 +101,17 @@
                            </ul>
                         </li>
                         <li><a href="./index.php?page=contact">Contact</a></li>
-            <!--             <li><a href="./index.php?page=blog/blog">blog</a></li> -->
+                    <!--<li><a href="./index.php?page=blog/blog">blog</a></li> -->
+
+                    <!-- social -->
+                    <div id="liens-sociaux">
+                    <ul class="social-network social-circle" class="nav navbar-nav navbar-right">
+                        <li><a href="https://www.facebook.com/dkcommunication" class="icoFacebook" title="Facebook"target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/dk_Com_" class="icoTwitter" title="Twitter"target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"target="_blank"></i></a></li>
+                        <li><a href="https://www.linkedin.com/profile/view?id=365408890&trk=hp-identity-photo" class="icoLinkedin" title="Linkedin"target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    </ul> 
+                    </div>  
                       </ul>
 
 
@@ -87,9 +122,10 @@
                        </div>
                        <button type="submit" class="btn btn-default">Ok</button>
                      </form>  --> 
+                    </div><!-- Fin du contenu de tous les liens de navigation -->
+            
+                
 
-
-                    </div><!-- Fin du contenuv de tous les liens de navigation -->
                 </div> <!-- fin col-lg -->  
                 </div> <!-- fin container -->  
                 </div> <!-- fin row -->  
